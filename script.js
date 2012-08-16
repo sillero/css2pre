@@ -19,7 +19,7 @@ $(function() {
         attribute: /\[([^\]]*)\]/g,
         combinator: /[>\+~]\s+[\S+]/,
         badwhitespace: /(\s\s|\n)/g
-    }
+    };
 
     //remove comments
     $cleanCss = $css.replace($patterns.comment, '');
@@ -84,4 +84,4 @@ $(function() {
             
         }
     });
-});​
+});
